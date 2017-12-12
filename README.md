@@ -32,6 +32,11 @@ We provide the pretrained model and training/testing code for the edge detection
  0. Install prerequisites for Caffe(http://caffe.berkeleyvision.org/installation.html#prequequisites)
  0. Modified-caffe for HED: https://github.com/s9xie/hed.git
 
+### Building
+ 0. Adjust Makefile.config
+ 0. make -j 16
+ 0. make -j 16 matcaffe
+
 ### Training HED
 To reproduce our results on BSDS500 dataset:
  0. data: Download the augmented BSDS data (1.2GB) from (http://vcl.ucsd.edu/hed/HED-BSDS.tar) and extract it in data/ folder
