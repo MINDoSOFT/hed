@@ -30,7 +30,7 @@ We provide the pretrained model and training/testing code for the edge detection
 
 ### Installing 
  0. Install prerequisites for Caffe(http://caffe.berkeleyvision.org/installation.html#prequequisites)
- 0. Modified-caffe for HED: https://github.com/s9xie/hed.git
+ 0. Modified-caffe for HED: https://github.com/MINDoSOFT/hed.git
 
 ### Building
  0. Adjust Makefile.config
